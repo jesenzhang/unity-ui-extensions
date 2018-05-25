@@ -1,0 +1,10 @@
+{
+    "name": "com.unity.ui.extensions.examples",
+    "references": [
+        "com.unity.ui.extensions.runtime"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

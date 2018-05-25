@@ -1,0 +1,12 @@
+{
+    "name": "com.unity.ui.extensions.editor",
+    "references": [
+        "com.unity.ui.extensions.runtime"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
