@@ -1460,8 +1460,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: ColorChangedEvent, UnityUIExtensions, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
+    m_TypeName: ColorChangedEvent, com.unity.ui.extensions.runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!114 &114049142773139156
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1625,7 +1625,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.Extensions.BoxSlider+BoxSliderEvent, UnityUIExtensions,
+    m_TypeName: UnityEngine.UI.Extensions.BoxSlider+BoxSliderEvent, com.unity.ui.extensions.runtime,
       Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &114095855369027972
 MonoBehaviour:
@@ -4104,8 +4104,8 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: ColorChangedEvent, UnityUIExtensions, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
+    m_TypeName: ColorChangedEvent, com.unity.ui.extensions.runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   hsvSlidersOn: 1
   hsvSliders:
   - {fileID: 1858270569380330}
