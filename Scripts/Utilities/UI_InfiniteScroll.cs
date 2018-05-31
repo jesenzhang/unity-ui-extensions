@@ -37,7 +37,7 @@ namespace UnityEngine.UI.Extensions
         private List<RectTransform> items = new List<RectTransform>();
         private Vector2 _newAnchoredPosition = Vector2.zero;
         //TO DISABLE FLICKERING OBJECT WHEN SCROLL VIEW IS IDLE IN BETWEEN OBJECTS
-        private float _treshold = 100f;
+        private float _threshold = 100f;
         private int _itemCount = 0;
         private float _recordOffsetX = 0;
         private float _recordOffsetY = 0;
@@ -82,7 +82,7 @@ namespace UnityEngine.UI.Extensions
 
                 if (_isHorizontal && _isVertical)
                 {
-                    Debug.LogError("UI_InfiniteScroll doesn't support scrolling in both directions, plase choose one direction (horizontal or vertical)");
+                    Debug.LogError("UI_InfiniteScroll doesn't support scrolling in both directions, please choose one direction (horizontal or vertical)");
                 }
 
                 _itemCount = _scrollRect.content.childCount;
@@ -134,7 +134,7 @@ namespace UnityEngine.UI.Extensions
             {
                 if (_isHorizontal)
                 {
-                    if (_scrollRect.transform.InverseTransformPoint(items[i].gameObject.transform.position).x > _disableMarginX + _treshold)
+                    if (_scrollRect.transform.InverseTransformPoint(items[i].gameObject.transform.position).x > _disableMarginX + _threshold)
                     {
                         _newAnchoredPosition = items[i].anchoredPosition;
                         _newAnchoredPosition.x -= _itemCount * _recordOffsetX;
@@ -152,7 +152,7 @@ namespace UnityEngine.UI.Extensions
 
                 if (_isVertical)
                 {
-                    if (_scrollRect.transform.InverseTransformPoint(items[i].gameObject.transform.position).y > _disableMarginY + _treshold)
+                    if (_scrollRect.transform.InverseTransformPoint(items[i].gameObject.transform.position).y > _disableMarginY + _threshold)
                     {
                         _newAnchoredPosition = items[i].anchoredPosition;
                         _newAnchoredPosition.y -= _itemCount * _recordOffsetY;
